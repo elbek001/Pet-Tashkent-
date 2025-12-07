@@ -14,6 +14,7 @@ import Home from "./components/home/Home";
 // Styles
 import './App.css';
 import Features from './components/home/Features';
+import PostAnimal from './components/home/PostAnimal';
 
 function App() {
   return (
@@ -44,6 +45,8 @@ function App() {
           <Route path="/hero" element={<Hero />} />
 
           <Route path="/Features" element={<Features />} />
+          <Route path="/PostAnimal" element={<PostAnimal />} />
+
 
         </Routes>
         
