@@ -13,6 +13,7 @@ import Home from "./components/home/Home";
 
 // Styles
 import './App.css';
+import Features from './components/home/Features';
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
           
           {/* Hero Section - Can be a standalone page or part of home */}
           <Route path="/hero" element={<Hero />} />
+
+          <Route path="/Features" element={<Features />} />
+
         </Routes>
         
         <Footer />
